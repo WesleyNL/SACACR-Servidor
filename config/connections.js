@@ -59,10 +59,11 @@ module.exports.connections = {
 
   someMysqlServer: {
     adapter: 'sails-mysql',
-    host: process.env.OPENSHIFT_MYSQL_DB_HOST || '127.0.0.1',
-    user: process.env.OPENSHIFT_MYSQL_DB_USERNAME || 'root',
-    password: process.env.OPENSHIFT_MYSQL_DB_PASSWORD || 'root',
+    host: process.env.OPENSHIFT_MYSQL_DB_HOST || '127.12.201.2',
+    user: process.env.OPENSHIFT_MYSQL_DB_USERNAME || 'adminyfM1D6r',
+    password: process.env.OPENSHIFT_MYSQL_DB_PASSWORD || 'PcyCSwvCAVLC',
     port: process.env.OPENSHIFT_MYSQL_DB_PORT || 3306,
+	database: 'nodejs',
     timezone: 'utc'
   },
   
